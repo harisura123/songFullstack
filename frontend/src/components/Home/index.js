@@ -27,15 +27,15 @@ function Home() {
             </div>
             <div className='Background_4'>
                 <label className='EnterHeadred'>Enter Song Link</label>
-                <input type='text' value={songlink} onChange={(e) => setMovieName(e.target.value)} className='EnterInputred' placeholder='Enter Song Link'/>
+                <input type='text' value={songlink} onChange={(e) => setsonglink(e.target.value)} className='EnterInputred' placeholder='Enter Song Link'/>
             </div>
             <div className='Background_4'>
                 <label className='EnterHeadorange'>Enter Movie Name</label>
-                <input type='text' value={moviename} onChange={(e) => setsongname(e.target.value)} className='EnterInputorange' placeholder='Enter Movie Name'/>
+                <input type='text' value={moviename} onChange={(e) => setMovieName(e.target.value)} className='EnterInputorange' placeholder='Enter Movie Name'/>
             </div>
             <div className='Background_4'>
                 <label className='EnterHeadviolet'>Enter Song Name</label>
-                <input type='text' value={songname} onChange={(e) => setsonglink(e.target.value)} className='EnterInputviolet' placeholder='Enter Song Name'/>
+                <input type='text' value={songname} onChange={(e) => setsongname(e.target.value)} className='EnterInputviolet' placeholder='Enter Song Name'/>
             </div>
             <div className='Background_4'>
                 <label className='EnterHeadgreen'>Enter Artist Name</label>
