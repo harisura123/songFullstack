@@ -1,0 +1,233 @@
+.Background_1{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue, indigo,violet);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Background_2{
+    background-color: #fff;
+    height: 95vh;
+    width: 40vw;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Background_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.Background_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.EnterHeadred{
+    color: red;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.EnterHeadorange{
+    color: orange;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.EnterHeadindigo{
+    color: indigo;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.EnterHeadviolet{
+    color: violet;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.EnterHeadgreen{
+    color: green;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.EnterHeadblue{
+    color: blue;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ErrorMsg{
+color: red;
+}
+
+.Submit_btn{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue, indigo,violet);
+    height: 5vh;
+    width: 10vw;
+    background-size: cover;  
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.EnterInputindigo{
+    background-color:#b675eb;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid indigo;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.EnterInputred{
+    background-color: #f57676;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid red;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.EnterInputorange{
+    background-color: #e8ab6b;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid orange;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.EnterInputviolet{
+    background-color: #f5c6f2;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid violet;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+.EnterInputgreen{
+    background-color:#8ad97c;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid green;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.EnterInputblue{
+    background-color: #7c83d9;
+    height: 5vh;
+    width: 30vw;
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid blue;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.EnterInputindigo::placeholder{
+    color: #fff;
+}
+
+.EnterInputred::placeholder{
+    color: #fff;
+}
+
+.EnterInputorange::placeholder{
+    color: #fff;
+}
+
+.EnterInputviolet::placeholder{
+    color: #fff;
+}
+
+.EnterInputgreen::placeholder{
+    color: #fff;
+}
+
+.EnterInputblue::placeholder{
+    color: #fff;
+}
+.upload{
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload img{
+    border-radius: 50%;
+    border: 6px solid #eaeaea;
+}
+
+.upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.upload .round input[type='file']{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+.seeImage{
+    display: flex;
+}
+
+.NotseeImage{
+    display: none;
+}
